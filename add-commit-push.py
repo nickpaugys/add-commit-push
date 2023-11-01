@@ -13,4 +13,4 @@ if MESSAGE == "yes" or "y":
     os.system('git push')
 
 elif MESSAGE == "no":
-    exit
+    exit()
