@@ -12,10 +12,10 @@ os.system('git status')
 
 force = False
 for x in range(len(sys.argv)):
-    print("Argument:")
+    print("Argument Number:")
     print(x)
     if sys.argv[x] == '-f':
-        print('force = True')
+        print('\nforce = True')
         force = True
 
 def addcommitpush():
