@@ -30,8 +30,8 @@ if force == False:
     MESSAGE = input("\nAre you sure that you'd like to commit and push changes? ").strip().lower()
     if MESSAGE == "yes" or "y":
         addcommitpush()
-    if MESSAGE == "no":
-        quit()        
+    elif MESSAGE == "no":
+        quit()      
 
 elif force == True:
     addcommitpush()
